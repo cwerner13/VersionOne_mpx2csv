@@ -1,0 +1,9 @@
+
+VersionOne Inc., an Agile project management software company based in the USA.
+All the data and information entered and maintained in a VersionOne Project 
+can be exported in .mpx format only. 
+
+This R program flattens the "Sprint-Story-Task" hierarchy and exports the 
+enriched "Task" rows as a csv-file.
+
+This project was created using Project Template
