@@ -14,6 +14,6 @@ category <-as.factor(data$Story)
 category <-as.factor(substr(data$Story_Descr,0,30))
 
 par(mfrow=c(1,2))
-plot(data$date2,category,col=category,cex=(data$task_estimate/8.5),yaxt="n", ylab="",xlab="Training Data obs.", pch=19, cex.axis=0.7)
-plot(data$date2,category,col=category,cex=(data$task_actual/8.5),yaxt="n", ylab="",xlab="Training Data obs.", pch=19, cex.axis=0.7)
+plot(data$date2,category,col=category,cex=(data$task_estimate/8.5),yaxt="n", ylab="",xlab="Estimate", pch=19, cex.axis=0.7)
+plot(data$date2,category,col=category,cex=(data$task_actual/8.5),yaxt="n", ylab="",xlab="Actual", pch=19, cex.axis=0.7)
 axis(side=2,at=unique(category),labels=unique(category), cex.axis=0.7, las=2)
